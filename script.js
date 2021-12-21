@@ -1,6 +1,6 @@
 //My mapbox account API access token
 
-// import {config} from "./config.js";
+import {config} from "./config.js";
 
 mapboxgl.accessToken =config.apikey;
 
